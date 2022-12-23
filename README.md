@@ -17,8 +17,8 @@
       Programs
     </a>
     <span> | </span>
-    <a href="https://github.com/marktext/marktext#features">
-      Features
+    <a href="https://github.com/marktext/marktext#commands">
+      Commands
     </a>
     <span> | </span>
     <a href="https://github.com/marktext/marktext#download-and-installation">
@@ -42,3 +42,17 @@
 ## Microsoft PowerToys
 
 You can find it in [github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys/releases/tag/v0.65.0)
+
+# Commands
+
+- Show WI-FI Password
+```pwsh
+C: > netsh wlan show profile
+     name
+C: > netsh wlan show profile name key=clear
+```
+
+- Verificar virus 
+
+Win+R + MRT
+
